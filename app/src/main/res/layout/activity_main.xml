@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="General Knowledge Exam"
+        android:textStyle="bold"
+        android:textSize="26dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/question1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        android:layout_below="@id/heading"
+        android:text="1. Question: Who wrote the play Romeo and Juliet?"
+        android:textSize="16dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/question2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        android:layout_below="@id/question1"
+        android:text="2. Question: What is the capital city of Australia?"
+        android:textSize="16dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/question3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        android:layout_below="@id/question2"
+        android:text="3. Question: Which planet is known as the Red Planet?"
+        android:textSize="16dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/question4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        android:layout_below="@id/question3"
+        android:text="4. Question: Which country is known as the Land of the Rising Sun?"
+        android:textSize="16dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/question5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        android:layout_below="@id/question4"
+        android:text="5. Question: Who painted the Mona Lisa?"
+        android:textSize="16dp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_below="@id/question5"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp">
+
+    </Button>
+</RelativeLayout>
